@@ -3,15 +3,15 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   count = 0
-  while count < src.count {
+  while count < src.count do
     innercount = 0 
     while innercount < src[count].count {
       if src[count][innercount].even?
         p src[count][innercount]
       end
       innercount +=1
-    }
+    end
     count +=1
-  }
+  end
   
 end
